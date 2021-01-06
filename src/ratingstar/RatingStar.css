@@ -1,0 +1,19 @@
+.ratingstar {
+    background-color: aqua;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.ratingstar__star{ 
+    stroke: rgb(137, 138, 138);
+    fill: none;
+    transform: scale(1);
+    margin: 0 .2em;
+}
+
+.ratingstar__starchecked {
+    stroke: #0314fc;
+    fill: #0314fc;
+}
